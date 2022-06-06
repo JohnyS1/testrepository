@@ -1,0 +1,9 @@
+    liss=[]
+    scoreliss=[]
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        liss.append([name, score])
+        scoreliss.append([score])
+    z=sorted(list(set([marks for name, marks in liss])))[1]
+    print('\n'.join(sorted([name for name, marks in liss if marks==z])))
