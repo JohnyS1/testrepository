@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    n = 5
+    lis = [57, 57, -57, 57]
+    z = max(lis)
+    while max(lis) == z:
+        lis.remove(max(lis))
+    print(max(lis))
