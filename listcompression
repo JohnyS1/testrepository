@@ -7,3 +7,5 @@
         scoreliss.append([score])
     z=sorted(list(set([marks for name, marks in liss])))[1]
     print('\n'.join(sorted([name for name, marks in liss if marks==z])))
+
+city2=x(to jes to co wrzucamy do append) for x(item wychodzący z iteracji) in city1(lista, coklwiek przez co itereujemy - to nam zwróci listę już
