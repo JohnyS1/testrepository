@@ -8,4 +8,5 @@
     z=sorted(list(set([marks for name, marks in liss])))[1]
     print('\n'.join(sorted([name for name, marks in liss if marks==z])))
 
-city2=x(to jes to co wrzucamy do append) for x(item wychodzący z iteracji) in city1(lista, coklwiek przez co itereujemy - to nam zwróci listę już
+city2=[x(to jes to co wrzucamy do append) for x(item wychodzący z iteracji) in city1(lista, coklwiek przez co itereujemy - to nam zwróci listę już)]
+result=[i for i in list1 for j in list2 if i==j]
