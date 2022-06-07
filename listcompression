@@ -10,3 +10,5 @@
 
 city2=[x(to jes to co wrzucamy do append) for x(item wychodzący z iteracji) in city1(lista, coklwiek przez co itereujemy - to nam zwróci listę już)]
 result=[i for i in list1 for j in list2 if i==j]
+
+[[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k!=n] - to mi zwraca permutacje z wpisanych liczn x, y, z
